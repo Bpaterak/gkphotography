@@ -59,7 +59,6 @@ section.background-secondary {
   font-family: "Georgia", "Times New Roman", Times, serif;
 }
 .img-responsive {
-  box-shadow: 0 0 5px #ccc;
   margin: 0 auto;
 }
 .no-space .box {
@@ -848,10 +847,10 @@ a:active {
   margin-left: -15px;
 }
 .box-masonry {
-  /*background: #fff;*/
+  background: #fff;
   margin-bottom: 30px;
   position: relative;
-  /*box-shadow: 0 0 5px #ccc;*/
+  box-shadow: 0 0 5px #ccc;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
