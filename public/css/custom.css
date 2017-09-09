@@ -1,0 +1,45 @@
+/* your styles go here */
+.grace_logo {
+  max-width: 90%;
+}
+.sidebar-p {
+  font-size:16px;
+  color:#333;
+}
+.subList {
+  list-style: none;
+}
+li.listItem:not(:first-child):before {
+  content: none !important;
+}
+li.listItem:first-child {
+  font-size: 18px;
+  color:#ef5285;
+}
+li.listItem.ed:first-child {
+  font-size: 18px;
+
+}
+
+.sidebar-heading a:hover {
+ text-decoration:none;
+}
+.sidebar-heading a:focus {
+ text-decoration:none;
+}
+p.social.socual--big a {
+  width:50px;
+  height:50px;
+  line-height: 50px;
+}
+p.social.socual--big i {
+  line-height: 50px;
+}
+img {
+  -webkit-touch-callout: none; /* iOS Safari */
+ -webkit-user-select: none;   /* Chrome/Safari/Opera */
+ -khtml-user-select: none;    /* Konqueror */
+ -moz-user-select: none;      /* Firefox */
+ -ms-user-select: none;       /* Internet Explorer/Edge */
+ user-select: none;
+}
