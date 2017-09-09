@@ -1,8 +1,20 @@
-#### Static Portfolio for Grace Kim Photography
+# gkphotography [![NPM version](https://badge.fury.io/js/gkphotography.svg)](https://npmjs.org/package/gkphotography) [![Build Status](https://travis-ci.org/Bpaterak/gkphotography.svg?branch=master)](https://travis-ci.org/Bpaterak/gkphotography)
 
-- Firebase Deployment
+> Grace Kim Photography Portfolio
 
-- database.rules.json
-- firebase.json
-- public
+## Installation
 
+```sh
+$ npm install --save gkphotography
+```
+
+## Usage
+
+```js
+var gkphotography = require('gkphotography');
+gkphotography();
+```
+
+## License
+
+MIT © [bpaterak](paterak.com)
